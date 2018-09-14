@@ -42,11 +42,11 @@ $ nodemon app
 
 :heart_eyes: __*GET localhost:3210/data*__
 
-![/data](./b.jpg)
+![/data](./c.jpg)
 
 :heart_eyes: __*GET localhost:3210/ram*__
 
-![/ram](./c.jpg)
+![/ram](./e.jpg)
 
 :heart_eyes: __*GET localhost:3210/cpu*__
 
@@ -54,7 +54,7 @@ $ nodemon app
 
 :heart_eyes: __*GET localhost:3210/error*__
 
-![/error](./e.jpg)
+![/error](./b.jpg)
 
 __Done!__ :thumbsup:
 
