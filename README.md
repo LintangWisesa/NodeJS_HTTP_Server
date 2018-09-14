@@ -4,9 +4,13 @@
 
 # __Node.JS HTTP Module__
 
-### A simple Node.JS HTTP server using HTTP module 
+### A simple Node.JS server using HTTP module 
 
-In this project, we will create a simple Node.JS server project using HTTP built-in Node.JS module. Clone this repo:
+In this project, we will create a simple Node.JS server project using HTTP built-in Node.JS module. 
+
+## __:snowflake: Screenshot:__
+
+To get started, simply clone this repo:
 
 ```bash
 $ git clone https://github.com/LintangWisesa/NodeJS_HTTP_Server.git
@@ -20,7 +24,7 @@ Then open __*http://localhost:3210*__ on your browser. Try to GET:
 - http://localhost:3210/data
 - http://localhost:3210/cpu
 - http://localhost:3210/ram
-- http://localhost:3210/randomRoute
+- http://localhost:3210/error or /randomRoute
 
 You can also run this project using __*Nodemon*__. Just install Nodemon globally then use it to run this project:
 
@@ -30,9 +34,27 @@ $ npm i -g nodemon
 $ nodemon app
 ```
 
-<!-- ## __:snowflake: Screenshot:__
+## __:snowflake: Screenshot:__
 
-![welcome](./lintang_firebase_firestore.png) -->
+__*GET localhost:3210/*__
+
+![welcome](./a.jpg)
+
+__*GET localhost:3210/data*__
+
+![/data](./b.jpg)
+
+__*GET localhost:3210/ram*__
+
+![/ram](./c.jpg)
+
+__*GET localhost:3210/cpu*__
+
+![/cpu](./d.jpg)
+
+__*GET localhost:3210/error*__
+
+![/error](./e.jpg)
 
 __Done!__ :thumbsup:
 
