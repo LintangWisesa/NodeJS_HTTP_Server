@@ -8,7 +8,7 @@
 
 In this project, we will create a simple Node.JS server project using HTTP built-in Node.JS module. 
 
-## __:snowflake: Screenshot:__
+## __:snowflake: Tutorial:__
 
 To get started, simply clone this repo:
 
@@ -36,23 +36,23 @@ $ nodemon app
 
 ## __:snowflake: Screenshot:__
 
-__*GET localhost:3210/*__
+:heart_eyes: __*GET localhost:3210/*__
 
 ![welcome](./a.jpg)
 
-__*GET localhost:3210/data*__
+:heart_eyes: __*GET localhost:3210/data*__
 
 ![/data](./b.jpg)
 
-__*GET localhost:3210/ram*__
+:heart_eyes: __*GET localhost:3210/ram*__
 
 ![/ram](./c.jpg)
 
-__*GET localhost:3210/cpu*__
+:heart_eyes: __*GET localhost:3210/cpu*__
 
 ![/cpu](./d.jpg)
 
-__*GET localhost:3210/error*__
+:heart_eyes: __*GET localhost:3210/error*__
 
 ![/error](./e.jpg)
 
