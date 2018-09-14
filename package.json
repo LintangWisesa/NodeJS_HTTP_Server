@@ -1,0 +1,16 @@
+{
+  "name": "0_http_backend",
+  "version": "1.0.0",
+  "description": "a simple backend project using node.js with http module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "http",
+    "backend",
+    "nodejs"
+  ],
+  "author": "lintangwisesa",
+  "license": "ISC"
+}
