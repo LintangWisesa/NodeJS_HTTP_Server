@@ -20,13 +20,13 @@ $ cd NodeJS_HTTP_Server
 $ node app
 ```
 
-Then open __*http://localhost:3210*__ on your browser. Try to GET:
+Then open __*http://localhost:3210*__ on your browser. Try to __GET__:
 - http://localhost:3210/data
 - http://localhost:3210/cpu
 - http://localhost:3210/ram
 - http://localhost:3210/error or /randomRoute
 
-You can also run this project using __*Nodemon*__. Just install Nodemon globally then use it to run this project:
+You can also try to __POST__ to http://localhost:3210/data. For convenience, run this project using __*Nodemon*__. Just install Nodemon globally then use it to run this project:
 
 ```bash
 $ npm i -g nodemon
