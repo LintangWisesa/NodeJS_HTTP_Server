@@ -52,7 +52,7 @@ $ nodemon app
 
 ![/cpu](./d.jpg)
 
-:heart_eyes: __*GET localhost:3210/error*__
+:heart_eyes: __*GET localhost:3210/error*__ or *__/randomRoute__*
 
 ![/error](./b.jpg)
 
