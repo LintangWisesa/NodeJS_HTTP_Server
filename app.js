@@ -13,17 +13,25 @@ var server = http.createServer((req, res)=>{
     } 
     
     else if (req.url === '/data'){
-        res.writeHead(200, {
-            'Content-Type': 'application/json',
-            'Access-Control-Allow-Origin': '*'
-        })
-        var orang = [
-            {nama:'Andi', usia: 22},
-            {nama:'Budi', usia: 23},
-            {nama:'Caca', usia: 24},
-            {nama:'Deni', usia: 25}
-        ]
-        res.end(JSON.stringify(orang))
+        if(req.method == 'POST'){
+            res.writeHead(200, {
+                'Content-Type': 'text/plain',
+                'Access-Control-Allow-Origin': '*'
+            })
+            res.end('You\'ve POSTED successfully!')
+        } else {
+            res.writeHead(200, {
+                'Content-Type': 'application/json',
+                'Access-Control-Allow-Origin': '*'
+            })
+            var orang = [
+                {nama:'Andi', usia: 22},
+                {nama:'Budi', usia: 23},
+                {nama:'Caca', usia: 24},
+                {nama:'Deni', usia: 25}
+            ]
+            res.end(JSON.stringify(orang))
+        }
     }
     
     else if (req.url === '/cpu'){
