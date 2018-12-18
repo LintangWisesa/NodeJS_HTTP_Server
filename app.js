@@ -15,10 +15,10 @@ var server = http.createServer((req, res)=>{
     else if (req.url === '/data'){
         if(req.method == 'POST'){
             res.writeHead(200, {
-                'Content-Type': 'text/plain',
+                'Content-Type': 'application/json',
                 'Access-Control-Allow-Origin': '*'
             })
-            res.end('You\'ve POSTED successfully!')
+            res.end('{"status": "You\'ve POSTed successfully!"}')
         } else {
             res.writeHead(200, {
                 'Content-Type': 'application/json',
